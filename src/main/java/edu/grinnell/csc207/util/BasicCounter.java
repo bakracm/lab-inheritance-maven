@@ -10,6 +10,7 @@ public class BasicCounter implements Counter{
     public BasicCounter(int start1){
         this.count = start1;
         this.start = start1;
+        //System.err.printf("BasicCounter(%d)\n", start); 
     }
 
   /**

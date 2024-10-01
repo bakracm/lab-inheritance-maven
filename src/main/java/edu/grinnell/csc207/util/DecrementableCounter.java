@@ -12,5 +12,6 @@ public class DecrementableCounter extends BasicCounter {
      */
     public DecrementableCounter(int start) {
       super(start);
+      //System.err.printf("DecrementableCounter(%d)\n", start); 
     } // DecrementableCounter(int)
   } // class DecrementableCounter
