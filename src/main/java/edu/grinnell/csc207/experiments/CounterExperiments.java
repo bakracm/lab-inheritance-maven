@@ -1,6 +1,7 @@
 package edu.grinnell.csc207.experiments;
 
 import edu.grinnell.csc207.util.Counter;
+import edu.grinnell.csc207.util.DecrementableCounter;
 import edu.grinnell.csc207.util.Tally;
 import edu.grinnell.csc207.util.BasicCounter;
 
@@ -25,7 +26,7 @@ public class CounterExperiments {
     // Set up some counters
     Counter alpha = new Tally();
     Counter beta = new BasicCounter(123);
-    Counter gamma = new BasicCounter(-5);
+    DecrementableCounter gamma = new DecrementableCounter(-5);
 
     // Print original values
     pen.println("Original alpha = " + alpha);
