@@ -44,6 +44,13 @@ public class CounterExperiments {
     pen.println("Updated beta = " + beta);
     pen.println("Updated gamma = " + gamma);
 
+    Counter delta = new DoubleCounter(0);
+    pen.println("Original delta = " + delta);
+    delta.increment();
+    pen.println("Incremented delta = " + delta);
+    delta.reset();
+    pen.println("Reset delta = " + delta);
+
     // And we're done
     pen.close();
   } // main(String[])
